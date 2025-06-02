@@ -26,7 +26,7 @@ This repository provides implementations in:
 Please see the example scripts in the `examples/` directory for each language.
 
 ### R Example
-# See R/f_theta.R and R/example.R
+See R/f_theta.R and R/example.R
 
 ```R
 # Source the function
@@ -47,7 +47,8 @@ print(thetas_r)
 ```
 
 ### Python Example
-# See python/f_theta.py and python/example.py
+See python/f_theta.py and python/example.py
+```
 import numpy as np
 from f_theta import f_theta # Assuming f_theta.py is in the same directory or PYTHONPATH
 
@@ -59,3 +60,4 @@ X_matrix_py = np.array([[1, 2, 3],
 
 thetas_py = f_theta(X_matrix_py)
 print(thetas_py)
+```
