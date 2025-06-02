@@ -4,7 +4,7 @@ This repository provides implementations of a function, `f_theta`, that calculat
 
 This can be appropriate as a normative model, to detect feature deviations across any number dimensions.
 
-The equivalent of the traditional ratio would be $\tan(\theta)$.
+The equivalent of the traditional ratio would be $\tan(\theta)$, but $\theta$ is visually more simple.
 
 ## Formula
 
