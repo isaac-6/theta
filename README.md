@@ -26,6 +26,7 @@ This repository provides implementations in:
 Please see the example scripts in the `examples/` directory for each language.
 
 ### R Example
+# See R/f_theta.R and R/example.R
 
 ```R
 # Source the function
@@ -44,3 +45,17 @@ print(thetas_r)
 # Expected output for [1,1,1] is approx 0 radians
 # Expected output for [-1,-1,-1] is approx pi radians
 ```
+
+### Python Example
+# See python/f_theta.py and python/example.py
+import numpy as np
+from f_theta import f_theta # Assuming f_theta.py is in the same directory or PYTHONPATH
+
+X_matrix_py = np.array([[1, 2, 3],
+                        [4, 5, 6],
+                        [1, 1, 1],
+                        [-1, -1, -1],
+                        [1, 0, 0]], dtype=float)
+
+thetas_py = f_theta(X_matrix_py)
+print(thetas_py)
