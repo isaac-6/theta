@@ -2,9 +2,11 @@
 
 This repository provides implementations of a function, `f_theta`, that calculates the angle (theta) between each row vector of an input matrix `X` and a vector of all ones of the same dimension. The angle is returned in radians.
 
-This can be appropriate as a normative model, to detect feature deviations across any number dimensions.
+This can be appropriate as a normative model (hence the vector of ones), to detect feature deviations across any number dimensions.
 
 The equivalent of the traditional ratio would be $\tan(\theta)$, but $\theta$ is visually more simple.
+
+Taking $\cos{\theta}$ instead will return values where 1 is the closest to the controls, and 0 the furthest.
 
 ## Formula
 
